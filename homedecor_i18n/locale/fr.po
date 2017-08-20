@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-20 14:49+0200\n"
-"PO-Revision-Date: 2017-08-06 07:59+0200\n"
+"PO-Revision-Date: 2017-08-20 15:01+0200\n"
 "Last-Translator: fat115 <fat115@framasoft.org>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -365,28 +365,24 @@ msgid "green"
 msgstr "vert"
 
 #: ../homedecor/books.lua
-#, fuzzy
 msgid "blue"
-msgstr "bleues"
+msgstr "bleu"
 
 #: ../homedecor/books.lua
-#, fuzzy
 msgid "violet"
-msgstr "violettes"
+msgstr "violet"
 
 #: ../homedecor/books.lua
-#, fuzzy
 msgid "grey"
-msgstr "vertes"
+msgstr "gris"
 
 #: ../homedecor/books.lua
 msgid "brown"
-msgstr ""
+msgstr "marron"
 
 #: ../homedecor/books.lua
-#, fuzzy
 msgid "Writable Book (@1)"
-msgstr "Livre inscriptible"
+msgstr "Livre inscriptible (@1)"
 
 #: ../homedecor/books.lua
 msgid "@1 has written in a book (title: \"@2\"): \"@3\" at location @4"
@@ -702,7 +698,7 @@ msgstr "Chaise longue"
 
 #: ../homedecor/exterior.lua
 msgid "Deck Chair (blue striped)"
-msgstr ""
+msgstr "Chaise longue (rayée de bleu)"
 
 #: ../homedecor/exterior.lua
 msgid "Doghouse"
@@ -751,13 +747,12 @@ msgid "yellow"
 msgstr "jaune"
 
 #: ../homedecor/exterior.lua
-#, fuzzy
 msgid "Shrubbery (large, @1)"
-msgstr "Arbustes (@1)"
+msgstr "Grand massif d'arbustes (@1)"
 
 #: ../homedecor/exterior.lua
 msgid "Shrubbery (@1)"
-msgstr "Arbustes (@1)"
+msgstr "Massif d'arbustes (@1)"
 
 #: ../homedecor/fences.lua ../homedecor/misc-nodes.lua ../homedecor/tables.lua
 #: ../homedecor/window_treatments.lua
@@ -1099,18 +1094,16 @@ msgid "Paper towels"
 msgstr "Essuie-tout"
 
 #: ../homedecor/laundry.lua
-#, fuzzy
 msgid "Washing Machine"
-msgstr "Distributeur de poison lent"
+msgstr "Machine à laver"
 
 #: ../homedecor/laundry.lua
 msgid "Tumble dryer"
-msgstr ""
+msgstr "Sèche-linge"
 
 #: ../homedecor/laundry.lua
-#, fuzzy
 msgid "Ironing board"
-msgstr "Écran et clavier"
+msgstr "Planche à repasser"
 
 #: ../homedecor/lighting.lua
 msgid "Thick Glowlight"
@@ -1325,9 +1318,8 @@ msgid "Metal tool cabinet and work table"
 msgstr "Établi pour le travail du métal"
 
 #: ../homedecor/misc-nodes.lua
-#, fuzzy
 msgid "Picture Frame "
-msgstr "Cadre photo"
+msgstr "Cadre photo "
 
 #: ../homedecor/misc-nodes.lua
 msgid "Decorative painting #@1"
@@ -1351,7 +1343,7 @@ msgstr "Rampe d'escalier (@1, @2)"
 
 #: ../homedecor/misc-nodes.lua
 msgid "Spiral Staircase"
-msgstr ""
+msgstr "Escalier en colimaçon"
 
 #: ../homedecor/misc-nodes.lua
 msgid "not enough space"
@@ -1518,9 +1510,8 @@ msgid "Curtains"
 msgstr "Rideaux"
 
 #: ../homedecor/window_treatments.lua
-#, fuzzy
 msgid "Curtains (open)"
-msgstr "Rideaux"
+msgstr "Rideaux (ouverts)"
 
 #: ../homedecor/window_treatments.lua
 msgid "Curtain Rod (@1)"
