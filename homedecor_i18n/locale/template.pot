@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-03 20:37+0200\n"
+"POT-Creation-Date: 2017-08-20 14:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -244,10 +244,6 @@ msgid "No room for place the Arcade!"
 msgstr ""
 
 #: ../fake_fire/init.lua
-msgid "Fake fire"
-msgstr ""
-
-#: ../fake_fire/init.lua
 msgid "Ice fire"
 msgstr ""
 
@@ -265,14 +261,6 @@ msgstr ""
 
 #: ../fake_fire/init.lua
 msgid "Sandstone chimney top"
-msgstr ""
-
-#: ../fake_fire/init.lua
-msgid "Flint and steel"
-msgstr ""
-
-#: ../fake_fire/init.lua
-msgid "This area is protected!"
 msgstr ""
 
 #: ../homedecor/bathroom_furniture.lua
@@ -367,8 +355,32 @@ msgstr ""
 msgid "Two-drawer Nightstand"
 msgstr ""
 
+#: ../homedecor/books.lua ../homedecor/exterior.lua
+msgid "red"
+msgstr ""
+
+#: ../homedecor/books.lua ../homedecor/exterior.lua ../homedecor/misc-nodes.lua
+msgid "green"
+msgstr ""
+
 #: ../homedecor/books.lua
-msgid "Writable Book"
+msgid "blue"
+msgstr ""
+
+#: ../homedecor/books.lua
+msgid "violet"
+msgstr ""
+
+#: ../homedecor/books.lua
+msgid "grey"
+msgstr ""
+
+#: ../homedecor/books.lua
+msgid "brown"
+msgstr ""
+
+#: ../homedecor/books.lua
+msgid "Writable Book (@1)"
 msgstr ""
 
 #: ../homedecor/books.lua
@@ -684,6 +696,10 @@ msgid "Deck Chair"
 msgstr ""
 
 #: ../homedecor/exterior.lua
+msgid "Deck Chair (blue striped)"
+msgstr ""
+
+#: ../homedecor/exterior.lua
 msgid "Doghouse"
 msgstr ""
 
@@ -725,16 +741,12 @@ msgstr ""
 msgid "Water well"
 msgstr ""
 
-#: ../homedecor/exterior.lua ../homedecor/misc-nodes.lua
-msgid "green"
-msgstr ""
-
-#: ../homedecor/exterior.lua
-msgid "red"
-msgstr ""
-
 #: ../homedecor/exterior.lua
 msgid "yellow"
+msgstr ""
+
+#: ../homedecor/exterior.lua
+msgid "Shrubbery (large, @1)"
 msgstr ""
 
 #: ../homedecor/exterior.lua
@@ -1080,6 +1092,18 @@ msgstr ""
 msgid "Paper towels"
 msgstr ""
 
+#: ../homedecor/laundry.lua
+msgid "Washing Machine"
+msgstr ""
+
+#: ../homedecor/laundry.lua
+msgid "Tumble dryer"
+msgstr ""
+
+#: ../homedecor/laundry.lua
+msgid "Ironing board"
+msgstr ""
+
 #: ../homedecor/lighting.lua
 msgid "Thick Glowlight"
 msgstr ""
@@ -1293,7 +1317,7 @@ msgid "Metal tool cabinet and work table"
 msgstr ""
 
 #: ../homedecor/misc-nodes.lua
-msgid "Picture Frame"
+msgid "Picture Frame "
 msgstr ""
 
 #: ../homedecor/misc-nodes.lua
@@ -1314,6 +1338,10 @@ msgstr ""
 
 #: ../homedecor/misc-nodes.lua
 msgid "Banister for Stairs (@1, @2)"
+msgstr ""
+
+#: ../homedecor/misc-nodes.lua
+msgid "Spiral Staircase"
 msgstr ""
 
 #: ../homedecor/misc-nodes.lua
@@ -1476,6 +1504,10 @@ msgstr ""
 
 #: ../homedecor/window_treatments.lua
 msgid "Curtains"
+msgstr ""
+
+#: ../homedecor/window_treatments.lua
+msgid "Curtains (open)"
 msgstr ""
 
 #: ../homedecor/window_treatments.lua

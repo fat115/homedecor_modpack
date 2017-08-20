@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-03 20:37+0200\n"
+"POT-Creation-Date: 2017-08-20 14:49+0200\n"
 "PO-Revision-Date: 2017-01-24 20:24-0300\n"
 "Last-Translator: Diego Martínez <kaeza@users.noreply.github.com>\n"
 "Language-Team: Spanish\n"
@@ -246,10 +246,6 @@ msgid "No room for place the Arcade!"
 msgstr "¡No hay lugar para colocar el arcade!"
 
 #: ../fake_fire/init.lua
-msgid "Fake fire"
-msgstr "Fuego falso"
-
-#: ../fake_fire/init.lua
 msgid "Ice fire"
 msgstr "Fuego de hielo"
 
@@ -268,14 +264,6 @@ msgstr "Chimenea de piedra"
 #: ../fake_fire/init.lua
 msgid "Sandstone chimney top"
 msgstr "Chimenea de arenisca"
-
-#: ../fake_fire/init.lua
-msgid "Flint and steel"
-msgstr "Pedernal y acero"
-
-#: ../fake_fire/init.lua
-msgid "This area is protected!"
-msgstr "¡Ésta área está protegida!"
 
 #: ../homedecor/bathroom_furniture.lua
 msgid "Bathroom/kitchen tiles (dark)"
@@ -369,8 +357,33 @@ msgstr "Mesa de luz con dos cajones (@1)"
 msgid "Two-drawer Nightstand"
 msgstr "Mesa de luz con dos cajones"
 
+#: ../homedecor/books.lua ../homedecor/exterior.lua
+msgid "red"
+msgstr "roja"
+
+#: ../homedecor/books.lua ../homedecor/exterior.lua ../homedecor/misc-nodes.lua
+msgid "green"
+msgstr "verde"
+
 #: ../homedecor/books.lua
-msgid "Writable Book"
+msgid "blue"
+msgstr "azul"
+
+#: ../homedecor/books.lua
+msgid "violet"
+msgstr "violeta"
+
+#: ../homedecor/books.lua
+msgid "grey"
+msgstr "gris"
+
+#: ../homedecor/books.lua
+msgid "brown"
+msgstr "marrón"
+
+#: ../homedecor/books.lua
+#, fuzzy
+msgid "Writable Book (@1)"
 msgstr "Libro"
 
 #: ../homedecor/books.lua
@@ -686,6 +699,10 @@ msgid "Deck Chair"
 msgstr "Tumbona"
 
 #: ../homedecor/exterior.lua
+msgid "Deck Chair (blue striped)"
+msgstr ""
+
+#: ../homedecor/exterior.lua
 msgid "Doghouse"
 msgstr "Casa de perros"
 
@@ -727,17 +744,14 @@ msgstr "Columpio"
 msgid "Water well"
 msgstr "Pozo de agua"
 
-#: ../homedecor/exterior.lua ../homedecor/misc-nodes.lua
-msgid "green"
-msgstr "verde"
-
-#: ../homedecor/exterior.lua
-msgid "red"
-msgstr "roja"
-
 #: ../homedecor/exterior.lua
 msgid "yellow"
 msgstr "amarilla"
+
+#: ../homedecor/exterior.lua
+#, fuzzy
+msgid "Shrubbery (large, @1)"
+msgstr "Arbustos (@1)"
 
 #: ../homedecor/exterior.lua
 msgid "Shrubbery (@1)"
@@ -1082,6 +1096,20 @@ msgstr "Grifo de cocina"
 msgid "Paper towels"
 msgstr "Toallas de papel"
 
+#: ../homedecor/laundry.lua
+#, fuzzy
+msgid "Washing Machine"
+msgstr "Máquina expendedora de refrescos"
+
+#: ../homedecor/laundry.lua
+msgid "Tumble dryer"
+msgstr ""
+
+#: ../homedecor/laundry.lua
+#, fuzzy
+msgid "Ironing board"
+msgstr "Monitor y teclado"
+
 #: ../homedecor/lighting.lua
 msgid "Thick Glowlight"
 msgstr "Luz brillante gruesa"
@@ -1295,7 +1323,8 @@ msgid "Metal tool cabinet and work table"
 msgstr "Mesa de trabajo y gabinete en hierro"
 
 #: ../homedecor/misc-nodes.lua
-msgid "Picture Frame"
+#, fuzzy
+msgid "Picture Frame "
 msgstr "Marco de fotografía"
 
 #: ../homedecor/misc-nodes.lua
@@ -1317,6 +1346,10 @@ msgstr "horizontal"
 #: ../homedecor/misc-nodes.lua
 msgid "Banister for Stairs (@1, @2)"
 msgstr "Barandilla para escaleras (@1, @2)"
+
+#: ../homedecor/misc-nodes.lua
+msgid "Spiral Staircase"
+msgstr ""
 
 #: ../homedecor/misc-nodes.lua
 msgid "not enough space"
@@ -1483,6 +1516,11 @@ msgid "Curtains"
 msgstr "Cortinas"
 
 #: ../homedecor/window_treatments.lua
+#, fuzzy
+msgid "Curtains (open)"
+msgstr "Cortinas"
+
+#: ../homedecor/window_treatments.lua
 msgid "Curtain Rod (@1)"
 msgstr "Palo de cortinas (@1)"
 
@@ -1577,17 +1615,20 @@ msgstr "Televisión de plasma"
 msgid "Plasma TV (off)"
 msgstr "Televisión de plasma (apagada)"
 
-#~ msgid "blue"
-#~ msgstr "azul"
+#~ msgid "Fake fire"
+#~ msgstr "Fuego falso"
+
+#~ msgid "Flint and steel"
+#~ msgstr "Pedernal y acero"
+
+#~ msgid "This area is protected!"
+#~ msgstr "¡Ésta área está protegida!"
 
 #~ msgid "white"
 #~ msgstr "blanca"
 
 #~ msgid "pink"
 #~ msgstr "rosa"
-
-#~ msgid "violet"
-#~ msgstr "violeta"
 
 #~ msgid "plain"
 #~ msgstr "liso"
@@ -1597,12 +1638,6 @@ msgstr "Televisión de plasma (apagada)"
 
 #~ msgid "Expansion placeholder (you hacker you!)"
 #~ msgstr "Marcador temporal de expansión (¡Tu, hacker!)"
-
-#~ msgid "grey"
-#~ msgstr "gris"
-
-#~ msgid "brown"
-#~ msgstr "marrón"
 
 #~ msgid "white/grey"
 #~ msgstr "blanco/gris"

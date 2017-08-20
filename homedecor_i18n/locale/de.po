@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-03 20:37+0200\n"
+"POT-Creation-Date: 2017-08-20 14:49+0200\n"
 "PO-Revision-Date: 2017-08-13 13:26+0200\n"
 "Last-Translator: Wuzzy <almikes@aol.com>\n"
 "Language-Team: German\n"
@@ -245,10 +245,6 @@ msgid "No room for place the Arcade!"
 msgstr "Kein Platz, um den Arkadeautomaten zu platzieren!"
 
 #: ../fake_fire/init.lua
-msgid "Fake fire"
-msgstr "Falsches Feuer"
-
-#: ../fake_fire/init.lua
 msgid "Ice fire"
 msgstr "Eisfeuer"
 
@@ -267,14 +263,6 @@ msgstr "Steinschornsteinaufsatz"
 #: ../fake_fire/init.lua
 msgid "Sandstone chimney top"
 msgstr "Sandsteinschornsteinaufsatz"
-
-#: ../fake_fire/init.lua
-msgid "Flint and steel"
-msgstr "Feuerstein und Stahl"
-
-#: ../fake_fire/init.lua
-msgid "This area is protected!"
-msgstr "Dieses Gebiet ist geschützt!"
 
 #: ../homedecor/bathroom_furniture.lua
 msgid "Bathroom/kitchen tiles (dark)"
@@ -367,6 +355,30 @@ msgstr "Nachttisch mit zwei Schubladen (@1)"
 #: ../homedecor/bedroom.lua
 msgid "Two-drawer Nightstand"
 msgstr "Nachttisch mit zwei Schubladen"
+
+#: ../homedecor/books.lua ../homedecor/exterior.lua
+msgid "red"
+msgstr "rot"
+
+#: ../homedecor/books.lua ../homedecor/exterior.lua ../homedecor/misc-nodes.lua
+msgid "green"
+msgstr "grün"
+
+#: ../homedecor/books.lua
+msgid "blue"
+msgstr "blau"
+
+#: ../homedecor/books.lua
+msgid "violet"
+msgstr "violett"
+
+#: ../homedecor/books.lua
+msgid "grey"
+msgstr "grau"
+
+#: ../homedecor/books.lua
+msgid "brown"
+msgstr "braun"
 
 #: ../homedecor/books.lua
 msgid "Writable Book (@1)"
@@ -685,6 +697,10 @@ msgid "Deck Chair"
 msgstr "Badeliege"
 
 #: ../homedecor/exterior.lua
+msgid "Deck Chair (blue striped)"
+msgstr ""
+
+#: ../homedecor/exterior.lua
 msgid "Doghouse"
 msgstr "Hundehütte"
 
@@ -726,17 +742,14 @@ msgstr "Baumschaukel"
 msgid "Water well"
 msgstr "Wasserbrunnen"
 
-#: ../homedecor/exterior.lua ../homedecor/misc-nodes.lua
-msgid "green"
-msgstr "grün"
-
-#: ../homedecor/exterior.lua
-msgid "red"
-msgstr "rot"
-
 #: ../homedecor/exterior.lua
 msgid "yellow"
 msgstr "gelb"
+
+#: ../homedecor/exterior.lua
+#, fuzzy
+msgid "Shrubbery (large, @1)"
+msgstr "Gebüsch (@1)"
 
 #: ../homedecor/exterior.lua
 msgid "Shrubbery (@1)"
@@ -1081,6 +1094,18 @@ msgstr "Küchenwasserhahn"
 msgid "Paper towels"
 msgstr "Küchenpapier"
 
+#: ../homedecor/laundry.lua
+msgid "Washing Machine"
+msgstr "Waschmaschine"
+
+#: ../homedecor/laundry.lua
+msgid "Tumble dryer"
+msgstr "Wäschetrockner"
+
+#: ../homedecor/laundry.lua
+msgid "Ironing board"
+msgstr "Bügelbrett"
+
 #: ../homedecor/lighting.lua
 msgid "Thick Glowlight"
 msgstr "Dickes Glimmlicht"
@@ -1294,12 +1319,9 @@ msgid "Metal tool cabinet and work table"
 msgstr "Metallwerkzeugschrank und Arbeitstisch"
 
 #: ../homedecor/misc-nodes.lua
-msgid "Picture Frame 1"
+#, fuzzy
+msgid "Picture Frame "
 msgstr "Bilderrahmen 1"
-
-#: ../homedecor/misc-nodes.lua
-msgid "Picture Frame 2"
-msgstr "Bilderrahmen 2"
 
 #: ../homedecor/misc-nodes.lua
 msgid "Decorative painting #@1"
@@ -1320,6 +1342,10 @@ msgstr "horizontal"
 #: ../homedecor/misc-nodes.lua
 msgid "Banister for Stairs (@1, @2)"
 msgstr "Treppengeländer (@1, @2)"
+
+#: ../homedecor/misc-nodes.lua
+msgid "Spiral Staircase"
+msgstr "Wendeltreppe"
 
 #: ../homedecor/misc-nodes.lua
 msgid "not enough space"
@@ -1486,6 +1512,11 @@ msgid "Curtains"
 msgstr "Gardinen"
 
 #: ../homedecor/window_treatments.lua
+#, fuzzy
+msgid "Curtains (open)"
+msgstr "Gardinen"
+
+#: ../homedecor/window_treatments.lua
 msgid "Curtain Rod (@1)"
 msgstr "Gardinenstange (@1)"
 
@@ -1547,7 +1578,9 @@ msgstr "Jemanden gehört schon die Stelle, wo das andere Ende hingehen würde."
 
 #: ../lrfurn/init.lua
 msgid "Someone else owns the spot where the middle or far end goes!"
-msgstr "Jemanden gehört schon die Stelle, wo das mittlere oder ferne Stück hingehen würde."
+msgstr ""
+"Jemanden gehört schon die Stelle, wo das mittlere oder ferne Stück hingehen "
+"würde."
 
 #: ../lrfurn/init.lua
 msgid "Someone else owns the spot where the other end goes!"
@@ -1577,35 +1610,23 @@ msgstr "Plasmafernseher"
 msgid "Plasma TV (off)"
 msgstr "Plasmafernseher (aus)"
 
-msgid "Tumble dryer"
-msgstr "Wäschetrockner"
+#~ msgid "Fake fire"
+#~ msgstr "Falsches Feuer"
 
-msgid "Ironing board"
-msgstr "Bügelbrett"
+#~ msgid "Flint and steel"
+#~ msgstr "Feuerstein und Stahl"
 
-msgid "Spiral Staircase"
-msgstr "Wendeltreppe"
+#~ msgid "This area is protected!"
+#~ msgstr "Dieses Gebiet ist geschützt!"
 
-msgid "Washing Machine"
-msgstr "Waschmaschine"
-
-msgid "blue"
-msgstr "blau"
-
-msgid "brown"
-msgstr "braun"
+#~ msgid "Picture Frame 2"
+#~ msgstr "Bilderrahmen 2"
 
 #~ msgid "white"
 #~ msgstr "weiß"
 
 #~ msgid "pink"
 #~ msgstr "rosa"
-
-msgid "violet"
-msgstr "violett"
-
-msgid "grey"
-msgstr "grau"
 
 #~ msgid "dark green"
 #~ msgstr "dunkelgrün"
@@ -1656,7 +1677,8 @@ msgstr "grau"
 #~ msgstr "%s nimmt etwas aus dem Kuechenschrank bei %s"
 
 #~ msgid "Not enough space above that spot to place a door! "
-#~ msgstr "Es gibt nicht genug Raum ueber dieser Stelle um die Tuer zu platzieren!"
+#~ msgstr ""
+#~ "Es gibt nicht genug Raum ueber dieser Stelle um die Tuer zu platzieren!"
 
 #~ msgid "Bucket of white paint "
 #~ msgstr "Eimer mit weisser Farbe"
